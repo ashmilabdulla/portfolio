@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menu, X, Mail, Phone, Github, Linkedin, ExternalLink, Download } from 'lucide-react';
 import { useState } from 'react';
-
+import pic from "./assets/ASH.jpeg";
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -71,7 +71,7 @@ function App() {
             </div>
             <div className="md:w-1/2">
               <img 
-                src="ASH.jpeg" 
+                src= {pic} 
                 alt="Profile" 
                 className="rounded-full w-64 h-64 object-cover mx-auto shadow-lg ring-2 ring-blue-500"
               />
